@@ -1,0 +1,161 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Reza Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#121a21] dark group/design-root overflow-x-hidden" style='font-family: Manrope, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div class="flex h-full min-h-[700px] flex-col justify-between bg-[#121a21] p-4">
+              <div class="flex flex-col gap-4">
+                <h1 class="text-white text-base font-medium leading-normal">Settings</h1>
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-3 px-3 py-2 rounded-xl bg-[#253746]"><p class="text-white text-sm font-medium leading-normal">Workspace</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Overview</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Members</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Labels</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Roadmaps</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Project updates</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Integrations</p></div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-1">
+                <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Profile</p></div>
+                <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Preferences</p></div>
+                <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Notifications</p></div>
+                <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">API</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-white tracking-light text-[32px] font-bold leading-tight min-w-72">Preferences</p></div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Accessibility</h2>
+            <div class="flex items-center gap-4 bg-[#121a21] px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">Display full names</p>
+                <p class="text-[#95b0c6] text-sm font-normal leading-normal line-clamp-2">Show full names of users instead of shorter display names</p>
+              </div>
+              <div class="shrink-0">
+                <label
+                  class="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full border-none bg-[#253746] p-0.5 has-[:checked]:justify-end has-[:checked]:bg-[#2c90e2]"
+                >
+                  <div class="h-full w-[27px] rounded-full bg-white" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px, rgba(0, 0, 0, 0.06) 0px 3px 1px;"></div>
+                  <input type="checkbox" class="invisible absolute" />
+                </label>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#121a21] px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">Use pointer cursors</p>
+                <p class="text-[#95b0c6] text-sm font-normal leading-normal line-clamp-2">Change the cursor to a pointer when hovering over any interactive elements.</p>
+              </div>
+              <div class="shrink-0">
+                <label
+                  class="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full border-none bg-[#253746] p-0.5 has-[:checked]:justify-end has-[:checked]:bg-[#2c90e2]"
+                >
+                  <div class="h-full w-[27px] rounded-full bg-white" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px, rgba(0, 0, 0, 0.06) 0px 3px 1px;"></div>
+                  <input type="checkbox" class="invisible absolute" />
+                </label>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#121a21] px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">Font size</p>
+                <p class="text-[#95b0c6] text-sm font-normal leading-normal line-clamp-2">Adjust your font size</p>
+              </div>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">Default</span>
+                </button>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#121a21] px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">First day of the week</p>
+                <p class="text-[#95b0c6] text-sm font-normal leading-normal line-clamp-2">Set the first day of the week</p>
+              </div>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">Sunday</span>
+                </button>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Theme</h2>
+            <div class="flex items-center gap-4 bg-[#121a21] px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">Interface theme</p>
+                <p class="text-[#95b0c6] text-sm font-normal leading-normal line-clamp-2">Select or customize your interface scheme</p>
+              </div>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">System preference</span>
+                </button>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#121a21] px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">Translucent UI</p>
+                <p class="text-[#95b0c6] text-sm font-normal leading-normal line-clamp-2">Use transparency in UI elements like the sidebar and modal windows</p>
+              </div>
+              <div class="shrink-0">
+                <label
+                  class="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full border-none bg-[#253746] p-0.5 has-[:checked]:justify-end has-[:checked]:bg-[#2c90e2]"
+                >
+                  <div class="h-full w-[27px] rounded-full bg-white" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px, rgba(0, 0, 0, 0.06) 0px 3px 1px;"></div>
+                  <input type="checkbox" class="invisible absolute" />
+                </label>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Behavior</h2>
+            <div class="flex items-center gap-4 bg-[#121a21] px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">Developer preview</p>
+                <p class="text-[#95b0c6] text-sm font-normal leading-normal line-clamp-2">Enable experimental features</p>
+              </div>
+              <div class="shrink-0">
+                <label
+                  class="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full border-none bg-[#253746] p-0.5 has-[:checked]:justify-end has-[:checked]:bg-[#2c90e2]"
+                >
+                  <div class="h-full w-[27px] rounded-full bg-white" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px, rgba(0, 0, 0, 0.06) 0px 3px 1px;"></div>
+                  <input type="checkbox" class="invisible absolute" />
+                </label>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#121a21] px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">Open in desktop app</p>
+                <p class="text-[#95b0c6] text-sm font-normal leading-normal line-clamp-2">Automatically open links in desktop app when possible</p>
+              </div>
+              <div class="shrink-0">
+                <label
+                  class="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full border-none bg-[#253746] p-0.5 has-[:checked]:justify-end has-[:checked]:bg-[#2c90e2]"
+                >
+                  <div class="h-full w-[27px] rounded-full bg-white" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px, rgba(0, 0, 0, 0.06) 0px 3px 1px;"></div>
+                  <input type="checkbox" class="invisible absolute" />
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
